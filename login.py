@@ -1,2 +1,5 @@
-def login():
-    print("Employee Login Module")
+def login(username,password):
+    if username=="admin" and password=="admin":
+        print("Login Successful")
+    else:
+        print("Invalid Credentials")
